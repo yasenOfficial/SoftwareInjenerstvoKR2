@@ -34,7 +34,6 @@ jobs:
   tests:
     name: Run Pytest
     runs-on: ubuntu-latest
-    needs: linter
 
     steps:
       - name: Checkout code
